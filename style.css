@@ -1,0 +1,82 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Card Container */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: auto;
+}
+
+/* Heading */
+h1 {
+  color: #333;
+}
+
+select {
+  width: 150px;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Math Question */
+h2 {
+  font-size: 30px;
+  color: #0077cc;
+  margin: 20px 0;
+}
+
+/* Input Field */
+input {
+  padding: 10px;
+  width: 80px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #0077cc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* Button Styling */
+button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#submit {
+  background-color: #28a745;
+}
+
+#next {
+  background-color: #004fff;
+}
+
+#submit:hover {
+  background-color: #218838;
+}
+
+#next:hover {
+  background-color: #132bec;
+}
+
+/* Feedback Message */
+#feedback {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d9534f;
+  margin-top: 15px;
+}
