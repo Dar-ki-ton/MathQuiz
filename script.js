@@ -108,7 +108,7 @@ function checkAnswer(valueA, valueB, userGuess) {
       answer = valueA * valueB;
     } else {
       answer = valueA / valueB;
-      answer = answer.toFixed(2);
+      answer = answer.toFixed(1);
     }
   }
   var feedback = getFeedback(userGuess, answer);
